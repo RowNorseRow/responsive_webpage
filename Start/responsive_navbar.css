@@ -62,35 +62,42 @@
 
 @media screen and (min-width: 550px) {
   .hero {
-    width: 60%;
+    width: 100%;
     order: 0;
   }
 
-  .weather {
-    width: 40%;
+  .top-news {
+    width: 50%;
     order: 1;
   }
+
+  .weather {
+    order: 2;
+    width: 50%;
+
+  }
+
 }
 
 @media screen and (min-width: 700px) {
   .hero {
     order: 0;
-    width: 50%;
+    width: 100%;
   }
 
   .top-news {
     order: 1;
-    width: 50%
+    width: 50%;
   }
 
   .scores {
-    order: 2;
-    width: 60%
+    order: 3;
+    width: 100%;
   }
 
   .weather {
-    order: 3;
-    width: 40%;
+    order: 2;
+    width: 50%;
   }
 }
 
@@ -99,5 +106,25 @@
     width: 850px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .hero {
+    order: 0;
+    width: 100%;
+  }
+
+  .top-news {
+    order: 1;
+    width: 33.3%
+  }
+
+  .scores {
+    order: 2;
+    width: 33.3%
+  }
+
+  .weather {
+    order: 3;
+    width: 33.3%;
   }
 }
